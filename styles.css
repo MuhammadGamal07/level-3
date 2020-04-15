@@ -1,0 +1,109 @@
+body {
+  background-color: #d8ebb5;
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-bottom: auto;
+  padding-top: 100px;
+  margin: 0;
+  font-size: 60px;
+  color: green;
+}
+
+hr {
+  border: dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  border-color: black;
+}
+
+h4 {
+  color: black;
+}
+
+/********************************class-sheet****************************/
+.bottom {
+  position: absolute;
+  bottom: 400px;
+  left: 250px
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.mm {
+  margin-bottom: 200px;
+  margin-top: 5px;
+}
+
+.skill-row {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.one {
+  margin: auto 50px 25px 50px;
+  width: 25%;
+  float: left;
+  margin-left: 30px;
+}
+
+.two {
+  margin: auto 50px 25px 50px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  color: green;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.copy-right {
+  color: white;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.bottom-container {
+  background-color: lightgreen;
+  padding: 50px 0 20px;
+}
+
+.css3button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -webkit-gradient(linear, left top, left bottom,
+      from(#42ff42),
+      to(#146600));
+  background: linear-gradient(top,
+      #42ff42 0%,
+      #146600);
+  border-radius: 10px;
+  border: 1px solid #134201;
+  box-shadow:
+    0px 1px 3px rgba(000, 000, 000, 0.5),
+    inset 0px 0px 2px rgba(255, 255, 255, 1);
+  text-shadow:
+    0px -1px 0px rgba(000, 000, 000, 0.4),
+    0px 1px 0px rgba(255, 255, 255, 0.3);
+}
